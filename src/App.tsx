@@ -1,5 +1,5 @@
 import { Layout } from "./components/Layout";
-import { Brands } from "./components/sections/Brands";
+//import { Brands } from "./components/sections/Brands";
 import { CTA } from "./components/sections/CallToAction";
 import { Hero } from "./components/sections/Hero";
 import  { Pricing } from "./components/sections/Pricing";
@@ -10,7 +10,6 @@ function App() {
   return (
   <Layout title="Vero's AI">
     <Hero />
-    <Brands />
     <Services />
     <AboutUs />
     <Pricing />

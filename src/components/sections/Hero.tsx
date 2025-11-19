@@ -1,8 +1,6 @@
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Button } from "../shared/Button";
-import email from "../../assets/email.png";
-import ToonMe from "../../assets/ToonMe.jpg";
 import { Numbers } from "./Numbers";
 
 
@@ -33,7 +31,7 @@ export const Hero = () => {
           <div className="flex sm:flex-row flex-col gap-5 w-full">
             <form action="#" className="py-1 pl-6 w-full pr-1 flex gap-3 item-center text-heading-3 shadow-lg shadow-box-shadow border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary">
               <span className="min-w-max pr-2 border-r boder-box-border">
-                <img src={email} alt="mail" className="w-6 h-6 position-center" />
+                <img src="/assets/email.png"alt="mail" className="w-6 h-6 position-center" />
               </span>
               <input type="email" placeholder="michealbeauty@gmail.com"
               className="w-full py-3 outline-none bg-transparent"
@@ -48,9 +46,7 @@ export const Hero = () => {
       </div>
 
       <div className="relative flex flex-1 lg:w-1/2 lg:h-auto mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
-      <img
-       src={ToonMe}
-       alt="hero"
+      <img src="/assets/ToonMe.jpg" alt="ToonMe" 
       width={2350}
       height={2359}
       className="rounded-3xl object-cover max-h-96 lg:max-h-none lg:absolute lg:w-full lg:h-full"

@@ -2,13 +2,13 @@ import { Container } from "../shared/Container";
 import { Title } from "../shared/Title";
 
 
-const assets = [
+{/*const assets = [
   "link",
   "gbt",
   "github",
   "VITE",
   "VScode",
-];
+];*/}
 
 export const Brands = () =>{
   return (
@@ -18,7 +18,7 @@ export const Brands = () =>{
         <div className="text-center max-w-3xl mx-auto">
           <Title> Trusted by Industry leader's</Title>
         </div>
-        <div className="flex justify-center flex-wrap gap-4">
+        {/*<div className="flex justify-center flex-wrap gap-4">
           {assets.map((assets, key) => (
             <div
               key={key} className="p-4 sm:p-5 rounded-xl bg-body box-border border group">
@@ -31,7 +31,7 @@ export const Brands = () =>{
                 />
             </div>
           ))}
-        </div>
+        </div>*/}
       </Container>
     </section>
   );
