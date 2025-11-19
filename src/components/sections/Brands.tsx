@@ -23,7 +23,7 @@ export const Brands = () =>{
             <div
               key={key} className="p-4 sm:p-5 rounded-xl bg-body box-border border group">
               <img 
-                src={`src/assets/${assets}.png`} 
+                src={`/assets/${assets}.png`} 
                 alt={assets} 
                 width="100" 
                 height="60" 
