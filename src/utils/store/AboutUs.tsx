@@ -1,5 +1,4 @@
 import { Container } from "../../components/shared/Container";
-import tune from "../../assets/tune.jpeg";
 import { Title } from "../../components/shared/Title";
 import { Paragraph } from "../../components/shared/Paragraph";
 import { Info } from "../../components/cards/Info";
@@ -11,7 +10,7 @@ export const AboutUs = () => {
       <Container className="flex flex-col md:flex-row gap-10 lg:gap-12 items-center">
         <div className="w-full md:w-5/12 lg:w-1/2">
           <div className="w-full h-80 sm:h-96 relative">
-            <img src={tune} alt="About our mission" className="w-full h-full object-cover rounded-3xl shadow-lg relative z-10" />
+            <img src="/assets/tune.jpeg" alt="About our mission" className="w-full h-full object-cover rounded-3xl shadow-lg relative z-10" />
           </div>
         </div>
 
