@@ -1,0 +1,22 @@
+.orbit-icon {
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+.orbit-icon {
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.orbit-icon:hover {
+  transform: scale(1.3);
+}
