@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { Container } from "../shared/Container";
 import ToonMe from "../../assets/ToonMe.jpg";
 import { NavItem } from "../shared/NavItem";
